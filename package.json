@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx watch --env-file .env src/server.ts",
     "build": "tsup src --out-dir build",
+    "start": "node build/server.js",
     "test": "vitest run"
   },
   "keywords": [],
